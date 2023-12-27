@@ -1,0 +1,56 @@
+/* first header */
+header {
+    background-color: #092635;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header div {
+    display: flex;
+    gap: 40px;
+}
+
+
+/* second nav */
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    height: 45px;
+    border-radius: 100%;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 150px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.nav-content {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
